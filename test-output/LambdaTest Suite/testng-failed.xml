@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [LambdaTest Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="tests" name="Firefox_Lambda Test_Scenario(failed)">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="version" value="84.0"/>
+    <parameter name="platform" value="Windows 10"/>
+    <classes>
+      <class name="Test_scenarios.TS_1">
+        <methods>
+          <include name="ts1"/>
+          <include name="ts2"/>
+          <include name="ts3"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Test_scenarios.TS_1 -->
+    </classes>
+  </test> <!-- Firefox_Lambda Test_Scenario(failed) -->
+  <test thread-count="3" parallel="tests" name="Chrome_Lambda Test_Scenario(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="version" value="88.0"/>
+    <parameter name="platform" value="Windows 10"/>
+    <classes>
+      <class name="Test_scenarios.TS_1">
+        <methods>
+          <include name="ts1"/>
+          <include name="ts2"/>
+          <include name="ts3"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Test_scenarios.TS_1 -->
+    </classes>
+  </test> <!-- Chrome_Lambda Test_Scenario(failed) -->
+  <test thread-count="3" parallel="tests" name="Edge_Lambda Test_Scenario(failed)">
+    <parameter name="browser" value="MicrosoftEdge"/>
+    <parameter name="version" value="89.0"/>
+    <parameter name="platform" value="Windows 10"/>
+    <classes>
+      <class name="Test_scenarios.TS_1">
+        <methods>
+          <include name="ts1"/>
+          <include name="ts2"/>
+          <include name="ts3"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Test_scenarios.TS_1 -->
+    </classes>
+  </test> <!-- Edge_Lambda Test_Scenario(failed) -->
+</suite> <!-- Failed suite [LambdaTest Suite] -->
