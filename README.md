@@ -1,1 +1,1 @@
-LambdaTest 101 Certification Assessment
+LambdaTest Selenium 101 Certification Assessment
